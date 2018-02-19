@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="item"
+            type="id.ilhamsuaib.onlineoffline.model.Item"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:text="@{item.nama}"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.constraint.ConstraintLayout>
+</layout>
